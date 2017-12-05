@@ -4,5 +4,5 @@ before_install:
   - wget -O .nuget/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
   - mono .nuget/nuget.exe
 install:
-  - nuget pack -NoDefaultExcludes
-  - nuget push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
+  - mono .nuget/nuget.exe pack -NoDefaultExcludes
+  - mono .nuget/nuget.exe push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
