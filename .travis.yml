@@ -1,11 +1,11 @@
 language: csharp
-install:
-  - nuget pack -NoDefaultExcludes
+before_install:
+  - mkdir -p .nuget
+  - wget -O .nuget/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+  - mono .nuget/nuget.exe
 deploy:
   provider: script
   skip_cleanup: true
-  script:
-    - nuget update -self
-    - nuget push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
+  script: nuget pack -NoDefaultExcludes && nuget push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
   on:
     branch: master
