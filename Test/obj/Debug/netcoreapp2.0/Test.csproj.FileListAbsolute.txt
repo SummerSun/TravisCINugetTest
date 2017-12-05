@@ -1,0 +1,13 @@
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\Test.deps.json
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.json
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.dev.json
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\Test.dll
+D:\dotnet-template-azure-iot-edge-module\Test\bin\Debug\netcoreapp2.0\Test.pdb
+D:\dotnet-template-azure-iot-edge-module\Test\obj\Debug\netcoreapp2.0\Test.csproj.CoreCompileInputs.cache
+D:\dotnet-template-azure-iot-edge-module\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfoInputs.cache
+D:\dotnet-template-azure-iot-edge-module\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfo.cs
+D:\dotnet-template-azure-iot-edge-module\Test\obj\Debug\netcoreapp2.0\Test.dll
+D:\dotnet-template-azure-iot-edge-module\Test\obj\Debug\netcoreapp2.0\Test.pdb
