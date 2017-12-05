@@ -2,7 +2,7 @@
 <package>
     <metadata>
     <id>Qisun.Test</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Test Purpose</title>
     <authors>Summer</authors>
     <description>Test travis ci nuget issues</description>
