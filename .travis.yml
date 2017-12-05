@@ -1,9 +1,5 @@
 language: csharp
 install:
   - nuget pack -NoDefaultExcludes
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: nuget update -self && nuget push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
-  on:
-    branch: master
+  - nuget update -self
+  - nuget push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
