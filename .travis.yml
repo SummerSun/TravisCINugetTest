@@ -3,9 +3,6 @@ install:
   - mkdir -p .nuget
   - wget -O .nuget/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
   - mono .nuget/nuget.exe
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: nuget pack -NoDefaultExcludes && nuget push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
-  on:
-    branch: master
+install:
+  - nuget pack -NoDefaultExcludes
+  - nuget push *.nupkg $api_key -Source https://www.nuget.org/api/v2/package
