@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+    <id>Qisun.Test</id>
+    <version>1.0.0</version>
+    <title>Test Purpose</title>
+    <authors>Summer</authors>
+    <description>Test travis ci nuget issues</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <language>en-US</language>
+    </metadata>
+    <files>
+      <file src="content/**/*" />
+    </files>
+</package>
